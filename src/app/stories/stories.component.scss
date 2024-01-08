@@ -1,0 +1,33 @@
+.content {
+  padding-top: 10px;
+  font-size: 14px;
+}
+.row {
+  //display: flex;
+  gap: 10px;
+
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.d-flex{
+  gap:20px;
+}
+
+
+.action {
+  padding: 0px 25px 20px;
+  button {
+    flex: 1;
+  }
+}
+
+.table-container {
+  height: 500px !important;
+  overflow: auto !important;
+}
+
+table {
+  width: 100%;
+}
